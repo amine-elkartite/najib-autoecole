@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Accueil" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Najib Auto École" [ref=e6]
+      - navigation "Navigation principale" [ref=e7]:
+        - link "Accueil" [ref=e8] [cursor=pointer]:
+          - /url: index.html
+        - link "Formations" [ref=e9] [cursor=pointer]:
+          - /url: formations.html
+        - link "Tarifs" [ref=e10] [cursor=pointer]:
+          - /url: tarifs.html
+        - link "À propos" [ref=e11] [cursor=pointer]:
+          - /url: about.html
+        - link "Galerie" [ref=e12] [cursor=pointer]:
+          - /url: galerie.html
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=e14]:
+        - 'link "06 99 94 50 55 Lun - Sam : 8h - 20h" [ref=e15] [cursor=pointer]':
+          - /url: tel:+212699945055
+          - generic [ref=e18]:
+            - text: 06 99 94 50 55
+            - generic [ref=e19]: "Lun - Sam : 8h - 20h"
+        - link "Taza, Maroc Hay El Massaoudia" [ref=e20] [cursor=pointer]:
+          - /url: contact.html
+          - generic [ref=e24]:
+            - text: Taza, Maroc
+            - generic [ref=e25]: Hay El Massaoudia
+      - button "S’inscrire" [ref=e26] [cursor=pointer]
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - img "Véhicule Najib Auto École à Taza" [ref=e32]
+      - generic [ref=e33]:
+        - paragraph [ref=e34]: NAJIB AUTO ÉCOLE - TAZA
+        - heading "PRENDRE LE VOLANT, C’EST PRENDRE SA LIBERTÉ" [level=1] [ref=e35]: PRENDRE LE VOLANT,C’EST PRENDRE SA LIBERTÉ
+        - paragraph [ref=e36]: Une formation de qualité, un accompagnement personnalisé et des moniteurs expérimentés pour faire de votre réussite notre priorité.
+        - generic [ref=e37]:
+          - button "Prendre rendez-vous" [ref=e38] [cursor=pointer]
+          - link "Voir nos formations" [ref=e44] [cursor=pointer]:
+            - /url: formations.html
+        - generic [ref=e48]:
+          - generic [ref=e49]: Formationde qualité
+          - generic [ref=e56]: Sécuritésur la route
+          - generic [ref=e61]: Accompagnementpersonnalisé
+          - generic [ref=e67]: Réussitegarantie
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - heading "Nos formations" [level=2] [ref=e74]
+        - paragraph [ref=e75]: Des parcours complets pour vous mener vers la réussite
+        - link "Voir toutes nos formations →" [ref=e76] [cursor=pointer]:
+          - /url: formations.html
+      - generic [ref=e77]:
+        - article [ref=e78]:
+          - img "Permis B" [ref=e79]
+          - generic [ref=e83]:
+            - heading "Permis B" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Une formation complète pour conduire en toute confiance avec un suivi personnalisé.
+            - link "En savoir plus →" [ref=e86] [cursor=pointer]:
+              - /url: formations.html#permis-b
+        - article [ref=e87]:
+          - img "Code de la route" [ref=e88]
+          - generic [ref=e92]:
+            - heading "Code de la route" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Préparation efficace avec des outils modernes et des séries d’entraînement.
+            - link "En savoir plus →" [ref=e95] [cursor=pointer]:
+              - /url: formations.html#code
+        - article [ref=e96]:
+          - img "Cours pratiques" [ref=e97]
+          - generic [ref=e103]:
+            - heading "Cours pratiques" [level=3] [ref=e104]
+            - paragraph [ref=e105]: Apprenez avec des moniteurs expérimentés sur des parcours réels à Taza.
+            - link "En savoir plus →" [ref=e106] [cursor=pointer]:
+              - /url: formations.html#permis-b
+        - article [ref=e107]:
+          - img "Accompagnement examen" [ref=e108]
+          - generic [ref=e113]:
+            - heading "Accompagnement examen" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Nous vous guidons jusqu’au jour J pour mettre toutes les chances de votre côté.
+            - link "En savoir plus →" [ref=e116] [cursor=pointer]:
+              - /url: formations.html#permis-b
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - heading "Nos tarifs" [level=2] [ref=e120]
+            - paragraph [ref=e121]: Des formules adaptées à vos besoins
+          - generic [ref=e122]:
+            - article [ref=e123]:
+              - generic [ref=e124]:
+                - heading "Formule Classique Permis B" [level=3] [ref=e125]: Formule ClassiquePermis B
+                - generic [ref=e126]: 4 500 DH
+              - list [ref=e127]:
+                - listitem [ref=e128]: Cours de code
+                - listitem [ref=e131]: 20h de conduite
+                - listitem [ref=e134]: Frais d’inscription
+                - listitem [ref=e137]: Suivi personnalisé
+              - button "Choisir cette formule" [ref=e140] [cursor=pointer]
+            - article [ref=e141]:
+              - generic [ref=e142]: POPULAIRE
+              - generic [ref=e143]:
+                - heading "Formule Confort Permis B" [level=3] [ref=e144]: Formule ConfortPermis B
+                - generic [ref=e145]: 5 900 DH
+              - list [ref=e146]:
+                - listitem [ref=e147]: Cours de code + application
+                - listitem [ref=e150]: 30h de conduite
+                - listitem [ref=e153]: Frais d’inscription
+                - listitem [ref=e156]: Accompagnement examen
+              - button "Choisir cette formule" [ref=e159] [cursor=pointer]
+            - article [ref=e160]:
+              - generic [ref=e161]:
+                - heading "Formule Premium Permis B" [level=3] [ref=e162]: Formule PremiumPermis B
+                - generic [ref=e163]: 7 500 DH
+              - list [ref=e164]:
+                - listitem [ref=e165]: Cours de code + application
+                - listitem [ref=e168]: 40h de conduite
+                - listitem [ref=e171]: Frais d’inscription
+                - listitem [ref=e174]: Suivi personnalisé
+              - button "Choisir cette formule" [ref=e177] [cursor=pointer]
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - heading "Ils nous font confiance" [level=2] [ref=e180]
+            - paragraph [ref=e181]: Des centaines d’élèves ont déjà choisi Najib Auto École
+          - generic [ref=e182]:
+            - article [ref=e183]:
+              - img "Salma E." [ref=e184]
+              - generic [ref=e185]:
+                - text: ★★★★★
+                - paragraph [ref=e186]: “Une excellente auto-école ! Les moniteurs sont très professionnels, patients et bienveillants. J’ai obtenu mon permis du premier coup. Merci Najib !”
+                - text: Salma E.
+                - generic [ref=e187]: Taza
+            - article [ref=e188]:
+              - img "Yassine B." [ref=e189]
+              - generic [ref=e190]:
+                - text: ★★★★★
+                - paragraph [ref=e191]: “Formation de qualité, ambiance agréable et suivi au top. Je recommande vivement Najib Auto École !”
+                - text: Yassine B.
+                - generic [ref=e192]: Taza
+          - generic [aria-hidden] [ref=e193]: ● ● ●
+        - complementary [ref=e194]:
+          - heading "Notre engagement en chiffres" [level=2] [ref=e195]: Notre engagementen chiffres
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e200]: "+500"
+              - generic [ref=e201]: Élèves formés
+            - generic [ref=e202]:
+              - generic [ref=e206]: 90%
+              - generic [ref=e207]: Taux de réussite
+            - generic [ref=e208]:
+              - generic [ref=e212]: "+5"
+              - generic [ref=e213]: Moniteurs expérimentés
+            - generic [ref=e214]:
+              - generic [ref=e218]: 100%
+              - generic [ref=e219]: Taza et environs
+  - contentinfo [ref=e220]:
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - img "Najib Auto École" [ref=e223]
+        - paragraph [ref=e224]: Votre confiance, notre priorité !
+      - generic [ref=e225]:
+        - generic [ref=e226]: Liens utiles
+        - generic [ref=e227]:
+          - link "Accueil" [ref=e228] [cursor=pointer]:
+            - /url: index.html
+          - link "Formations" [ref=e229] [cursor=pointer]:
+            - /url: formations.html
+          - link "Tarifs" [ref=e230] [cursor=pointer]:
+            - /url: tarifs.html
+          - link "À propos" [ref=e231] [cursor=pointer]:
+            - /url: about.html
+          - link "Galerie" [ref=e232] [cursor=pointer]:
+            - /url: galerie.html
+          - link "Contact" [ref=e233] [cursor=pointer]:
+            - /url: contact.html
+      - generic [ref=e234]:
+        - generic [ref=e235]: Nos coordonnées
+        - paragraph [ref=e236]: Hay El Massaoudia, Taza, Maroc
+        - link "06 99 94 50 55" [ref=e240] [cursor=pointer]:
+          - /url: tel:+212699945055
+        - link "contact@najib-autoecole.ma" [ref=e243] [cursor=pointer]:
+          - /url: mailto:contact@najib-autoecole.ma
+      - generic [ref=e247]:
+        - generic [ref=e248]: Suivez-nous
+        - generic [ref=e249]:
+          - link "Facebook" [ref=e250] [cursor=pointer]:
+            - /url: https://www.facebook.com/najib.autoecole?locale=fr_FR
+            - text: f
+          - link "Instagram" [ref=e251] [cursor=pointer]:
+            - /url: https://www.instagram.com/najib_autoecole/
+      - generic [ref=e253]:
+        - emphasis [ref=e254]: Ensemble vers la réussite !
+        - generic [ref=e256]: © 2026 Najib Auto École. Tous droits réservés.

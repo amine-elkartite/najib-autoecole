@@ -1,0 +1,5 @@
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(31,174,100,.35); } 70% { box-shadow: 0 0 0 15px rgba(31,174,100,0); } 100% { box-shadow: 0 0 0 0 rgba(31,174,100,0); } }
+.whatsapp-float { animation: pulse-ring 2.7s infinite; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
